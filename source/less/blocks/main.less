@@ -12,27 +12,29 @@
     width: 10vw;
     height: 8vw;
 
-    background-color: #a83254;
+    background-color: @color-main;
 
     clip-path: polygon(80% 0,100% 35%,50% 100%,0 35%,20% 0);
     cursor: pointer;
 
     &:hover {
       &+.main__layout {
-        background-color: #4287f5;
+        background-color: @color-secondary;
       }
     }
 
     p {
       font-size: 6vw;
       font-weight: bold;
-      color: white;
+      color: @color-text-light;
     }
   }
 
   &__layout {
     width: 100vw;
     height: 100vh;
+
+    .main-transition(background-color);
   }
 }
 
