@@ -1,0 +1,2 @@
+body{margin:0;padding:0}.main__item{position:fixed;top:50%;left:50%;transform:translate(-50%,-50%);display:flex;justify-content:center;align-items:center;width:10vw;height:8vw;background-color:#a83254;-webkit-clip-path:polygon(80% 0,100% 35%,50% 100%,0 35%,20% 0);clip-path:polygon(80% 0,100% 35%,50% 100%,0 35%,20% 0);cursor:pointer}.main__item:hover+.main__layout{background-color:#4287f5}.main__item p{font-size:6vw;font-weight:700;color:#fff}.main__layout{width:100vw;height:100vh}
+/*# sourceMappingURL=style.min.css.map */
